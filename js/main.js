@@ -17,7 +17,7 @@ function aleatorio(){
 
 var alazar = aleatorio();
 
-document.getElementById("cover1").innerHTML = '<img src="'+ ps3Juegos[aleatorio[0]][1] +'" >';
+document.getElementById("cover1").innerHTML = '<img src="'+ ps3Juegos[alazar[0]][1] +'" >';
 document.getElementById("cover2").innerHTML = '<img src="'+ ps3Juegos[alazar[1]][1] +'" >';
 document.getElementById("cover3").innerHTML = '<img src="'+ ps3Juegos[alazar[2]][1] +'" >';
 document.getElementById("cover4").innerHTML = '<img src="'+ ps3Juegos[alazar[3]][1] +'" >';
