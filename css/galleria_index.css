@@ -1,0 +1,11 @@
+div.gallery img{
+	max-height: 240px;
+	height: auto;
+	width: 100%;
+}
+.responsive{
+	padding: 0 2px;
+	margin: 8px 0;
+	width: 24.99999%;
+	float: left;
+}
