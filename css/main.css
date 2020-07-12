@@ -1,5 +1,4 @@
 @import url("normalize-min.css");
-@import url("all.css");
 
 @font-face{
 	font-family: indieflower;
@@ -23,14 +22,10 @@ h1{
 	font-family: indieflower;
 }
 .contenedor{
-	background:#B1AD0C;
+	background:#358b61;
 	width:90%;
 	max-width:1024px;
 	margin:auto;
-}
-.icono>a>img{
-	width: 150px;
-	float:left;
 }
 .titulo{
 	margin: 0 37%;
@@ -54,20 +49,38 @@ h1{
 	padding: 10px;
 }
 .opciones>div:hover{
-	color:#94b8b8;
+	color:#ebebe0;
 	background:#1e2f2f;
 	cursor: pointer;
+	fill: #ebebe0;
 }
 .buscador{
 	display: flex;
 	justify-content: center;
 	margin: 5px;
 }
-.buscador>a{
-	padding: 5px;
+.buscador>svg{
+	padding: 1px;
 	border:solid black 1px;
 	border-radius: 30%;
 }
+
+.icon{
+	width: 20px;
+	height: 18.4px;
+}
+.iconPs{
+	width: 150px;
+	height: 150px;
+	float: left;
+	padding-left: 4px;
+}
+
+/* 
+///////////////////////////////////////////////////////
+		Galeria imagenes
+///////////////////////////////////////////////////////
+*/
 
 .img{
 	max-width: 100%; 
@@ -76,15 +89,15 @@ h1{
 
 .img1, .img2, .img3, .img4
 { 
-	background-image: url('../img/Marco_Vertical_300x300.webp'); 
+	background-image:url('../img/PS3/Games1_ps3.webp'); 
 } 
 .img5, .img6, .img7, .img8
 { 
-	background-image: url('../img/Marco_Vertical_400x400.webp'); 
+	background-image: url('../img/PS3/Games2_ps3.webp'); 
 }
 .img9, .img10, .img11, .img12
 { 
-	background-image: url('../img/Marco_Vertical_500x500.webp'); 
+	background-image: url('../img/PS3/Games3_ps3.webp'); 
 }
 
 .img1, .img5, .img9{ background-position: 0 0%; background-size: 100%; }
@@ -109,7 +122,10 @@ h1{
 
 
 @media only screen and (max-width: 950px){
-	.icono>a>img{	width:100px;}
+	.iconPs{
+		width: 100px;
+		height: 100px;
+	}
 	.titulo{
 		width: 200px;
 		height: 100px;
@@ -143,6 +159,12 @@ h1{
 	height: 49.1%;
     }
 }
+@media only screen and (max-width: 300px) {
+	.gallery1, .gallery2, .gallery3, .gallery4{
+	  width:  99%;
+	  height: 99%;
+	  }
+  }
 
 
 
